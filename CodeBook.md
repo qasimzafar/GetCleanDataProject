@@ -52,7 +52,8 @@ The objective is to create one R script called run_analysis.R that does the foll
 
 The script downloads the zip file from the link provided (if it has not already done so), and unzips it
 
-``library("data.table")
+```
+library("data.table")
 
 # download, unzip and load the dataset
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -60,7 +61,8 @@ f <- "Dataset.zip"
 if (!file.exists(f)) {
 	download.file(url, f)
 	unzip(f)
-	}``
+	}
+```
 
 # 2. Reading in the Data
 
@@ -76,7 +78,8 @@ xTest = fread("UCI HAR Dataset/test/X_test.txt")
 yTest = fread("UCI HAR Dataset/test/Y_test.txt", col.names="activity")
 
 activityLabels = fread("UCI HAR Dataset/activity_labels.txt")
-featureLabels = fread("UCI HAR Dataset/features.txt")```
+featureLabels = fread("UCI HAR Dataset/features.txt")
+```
 
 # 3. Combining Data
 
