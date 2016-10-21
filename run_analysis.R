@@ -53,4 +53,4 @@ tempNames <- sub("BodyBody", "Body", tempNames)
 names(newDs) <- tempNames
 
 # write out the new data frame to disk as a .csv file
-write.table(newDs, "run_analysis.csv", sep=",", qmethod="double", row.names = FALSE)
+write.table(newDs, "run_analysis.txt", sep=",", qmethod="double", row.names = FALSE)

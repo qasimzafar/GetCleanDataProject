@@ -209,8 +209,8 @@ This is now a tidy dataset.
 Write out the obtained dataset using `write.table`, to the file `run_analysis.csv` which is included in the root of this repo.
 
 ```
-# write out the new data frame to disk as a .csv file
-write.table(newDs, "run_analysis.csv", sep=",", qmethod="double", row.names = FALSE)
+# write out the new data frame to disk as a .txt file
+write.table(newDs, "run_analysis.txt", sep=",", qmethod="double", row.names = FALSE)
 ```
 
 This concludes the manipulations required to obtain the raw dataset from the internet, tidy it, extract variables of interest and store them in a separate, attached file.

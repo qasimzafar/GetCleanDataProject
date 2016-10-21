@@ -25,7 +25,7 @@ The objective is to create one R script called run_analysis.R that does the foll
 ## Overview of the Files
 
 * run_analysis.R is the R script that, when run, will automatically download the dataset, extract the relevant files and perform the necessary computation
-* run_analysis.csv is the tidied dataset stored in a .csv file format
+* run_analysis.txt is the tidied dataset stored in a csv file format
 * CodeBook.md describes the variables, the data, and any transformations and work that was performed to clean up the data
 
 ## Review Criteria
